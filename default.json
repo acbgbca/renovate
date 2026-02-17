@@ -1,0 +1,29 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+      "config:best-practices",
+      "schedule:weekly"
+  ],
+  "assignees": ["acbgbca"],
+  "prHourlyLimit": 2,
+  "ignoreTests": false,
+  "minimumReleaseAge": "3 days",
+  "commitMessagePrefix": "[Renovate] ",
+  "automerge": true,
+  "platformAutomerge": false,
+  "automergeSchedule": "* * * * *",
+  "packageRules": [
+    {
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-non-major",
+      "matchPackageNames": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "digest"
+      ]
+    }
+  ]
+}
