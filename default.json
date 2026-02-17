@@ -8,6 +8,8 @@
   "prHourlyLimit": 2,
   "ignoreTests": false,
   "minimumReleaseAge": "3 days",
+  "prCreation": "not-pending",
+  "internalChecksFilter": "strict",
   "commitMessagePrefix": "[Renovate] ",
   "automerge": true,
   "platformAutomerge": false,
