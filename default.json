@@ -2,8 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
       "config:best-practices",
-      "docker:enableMajor",
-      "schedule:weekly"
+      "docker:enableMajor"
   ],
   "assignees": [
     "acbgbca"
