@@ -13,7 +13,6 @@
   "ignoreTests": false,
   "minimumReleaseAge": "3 days",
   "minimumReleaseAgeBehaviour": "timestamp-optional",
-  "prCreation": "not-pending",
   "internalChecksFilter": "strict",
   "commitMessagePrefix": "[Renovate] ",
   "automerge": true,
