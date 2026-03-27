@@ -17,5 +17,6 @@
   "commitMessagePrefix": "[Renovate] ",
   "automerge": true,
   "platformAutomerge": false,
-  "automergeSchedule": ["* * * * *"]
+  "automergeSchedule": ["* * * * *"],
+  "timezone": "Australia/Melbourne"
 }
